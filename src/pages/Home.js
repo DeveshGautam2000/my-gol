@@ -321,29 +321,29 @@ const Home = () => {
         src="../rectangle-41@2x.png"
       />
       <div className={styles.rectangleDiv29} />
-      <div className={styles.frameDiv12}>
+      {/* <div className={styles.frameDiv12}>
         <div className={styles.selectIsaland}>select isaland</div>
         <img
           className={styles.expandMoreFILL0Wght400GRADIcon}
           alt=""
-          src="../expand-more-fill0-wght400-grad0-opsz48-1.svg"
+          // src="../expand-more-fill0-wght400-grad0-opsz48-1.svg"
         />
-      </div>
+      </div> */}
       <div className={styles.discoverTheMostEngagingHol}>
         Discover the most engaging Holidays
       </div>
       <div className={styles.chooseFromTheVariousPackag}>
         Choose from the various Package Tours and Island Stays which suits you.
       </div>
-      <div className={styles.rectangleDiv30} />
-      <div className={styles.rectangleDiv31} />
+      <input type="text" className={styles.rectangleDiv30} />
+      <button className={styles.rectangleDiv31}>explore</button>
       <div className={styles.frameDiv13}>
         <img
           className={styles.exploreFILL0Wght400GRAD0OpIcon}
           alt=""
           src="../explore-fill0-wght400-grad0-opsz48-1.svg"
         />
-        <div className={styles.selectIsaland}>explore</div>
+        {/* <div className={styles.selectIsaland}></div> */}
       </div>
       <div className={styles.frameDiv14}>
         <div className={styles.rectangleDiv32} />

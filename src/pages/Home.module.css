@@ -214,7 +214,7 @@
 .pacakgeCad2 {
   position: absolute;
   top: 1142px;
-  left: 510px;
+  left: 495px;
   box-shadow: 0 0 24px rgba(0, 0, 0, 0.1);
   width: 419px;
   height: 480px;
@@ -270,7 +270,7 @@
 .pacakgeCad21 {
   position: absolute;
   top: 1142px;
-  left: 951px;
+  left: 940px;
   box-shadow: 0 0 24px rgba(0, 0, 0, 0.1);
   width: 419px;
   height: 480px;
@@ -297,7 +297,7 @@
 .pacakgeCad22 {
   position: absolute;
   top: 1142px;
-  left: 70px;
+  left: 40px;
   box-shadow: 0 0 24px rgba(0, 0, 0, 0.1);
   width: 419px;
   height: 480px;
@@ -497,8 +497,9 @@
   border: none;
   font-size: var(--font-size-2xl);
   font-family: var(--font-montserrat);
+  color: var(--color-white);
 }
-.findTrip {
+/* .findTrip {
   position: absolute;
   top: 15px;
   left: 25px;
@@ -506,10 +507,9 @@
   line-height: 140%;
   font-weight: 600;
   font-family: var(--font-montserrat);
-  color: var(--color-white);
   text-align: left;
   display: inline-block;
-}
+} */
 .groupDiv13 {
   position: absolute;
   top: 36px;
@@ -803,13 +803,6 @@
   top: 1712px;
   background-color: rgba(58, 58, 58, 0.49);
 }
-.selectIsaland {
-  position: relative;
-  line-height: 140%;
-  text-transform: capitalize;
-  font-weight: 500;
-  display: inline-block;
-}
 .expandMoreFILL0Wght400GRADIcon {
   position: relative;
   width: 24px;
@@ -817,18 +810,7 @@
   flex-shrink: 0;
   overflow: hidden;
 }
-.frameDiv12 {
-  position: absolute;
-  top: 1884px;
-  left: 507px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 133px;
-  font-size: var(--font-size-xl);
-  color: var(--color-gray-400);
-}
+
 .chooseFromTheVariousPackag,
 .discoverTheMostEngagingHol {
   position: absolute;
@@ -858,13 +840,31 @@
   border: 1px solid var(--color-white);
   box-sizing: border-box;
   width: 492px;
+  background-color: transparent;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-400);
+  align-items: center;
+}
+.frameDiv12 {
+  position: absolute;
+  top: 1884px;
+  left: 507px;
+  display: flex;
+  flex-direction: row;
+  gap: 133px;
 }
 .rectangleDiv31 {
   left: 801px;
   border-radius: 0 var(--br-xl) var(--br-xl) 0;
   background-color: var(--color-teal-100);
   width: 165px;
+  border: none;
+  text-transform: capitalize;
+  font-weight: 500;
+  line-height: 140%;
+  color: var(--color-white);
 }
+
 .exploreFILL0Wght400GRAD0OpIcon {
   position: relative;
   width: 20px;
@@ -1117,7 +1117,7 @@
 .frameDiv17 {
   position: absolute;
   top: 3811px;
-  left: 70px;
+  left: 26px;
   border-radius: 32px;
   background-color: #fbfeff;
   border: 1px solid #d3d3d3;
