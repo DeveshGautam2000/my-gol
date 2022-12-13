@@ -1,3 +1,5 @@
+// import { prependOnceListener } from "process";
+// import { Children } from "react";
 import styles from "./Home.module.css";
 
 const Home = () => {
@@ -133,31 +135,41 @@ const Home = () => {
           src="../cardright1@2x.png"
         />
         <form className={styles.locationFindTrip}>
-          <img className={styles.groupIcon} alt="" src="../group-10.svg" />
+          {/* <img className={styles.groupIcon} alt="" src="../group-10.svg" /> */}
           <form className={styles.locationFindTrip1}>
             <div className={styles.rectangleDiv14} />
             <div className={styles.lineDiv} />
             <div className={styles.frameDiv}>
-              <div className={styles.groupDiv11}>
-                <div className={styles.pembrokePines}>Pembroke Pines</div>
+              <form className={styles.groupDiv11}>
+                <input
+                  type="text"
+                  name="name"
+                  value="Pembroke Pines"
+                  className={styles.pembrokePines}
+                />
                 <div className={styles.frameDiv1}>
                   <div className={styles.rectangleDiv15} />
                   <div className={styles.location}>Location</div>
                 </div>
-              </div>
-              <div className={styles.groupDiv12}>
-                <div className={styles.december2022}>09-December 2022</div>
+              </form>
+              <form className={styles.groupDiv12}>
+                <input
+                  type="date"
+                  name="date"
+                  value="2017-01-26"
+                  className={styles.december2022}
+                />
                 <div className={styles.frameDiv1}>
                   <div className={styles.rectangleDiv16}>
                     <div className={styles.rectangleDiv17} />
                   </div>
                   <div className={styles.location}>Date</div>
                 </div>
-              </div>
+              </form>
             </div>
             <div className={styles.groupDiv13}>
-              <div className={styles.rectangleDiv18} />
-              <div className={styles.findTrip}>Find Trip</div>
+              <button className={styles.rectangleDiv18}>Find Trip</button>
+              {/* <div className={styles.findTrip}>Find Trip</div> */}
             </div>
           </form>
         </form>

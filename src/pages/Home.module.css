@@ -330,10 +330,10 @@
   object-fit: cover;
 }
 .cardLeftIcon {
-  top: 560.48px;
+  top: 473.48px;
   left: 591.08px;
-  width: 840.91px;
-  height: 840.91px;
+  width: 306px;
+  height: 1000px;
 }
 .theExotic {
   color: var(--color-gray-200);
@@ -401,6 +401,8 @@
   color: var(--color-gray-100);
   text-align: left;
   display: inline-block;
+  border: none;
+  background-color: #d8f3ff;
 }
 .rectangleDiv15 {
   position: relative;
@@ -448,6 +450,8 @@
   color: var(--color-gray-100);
   text-align: left;
   display: inline-block;
+  background-color: #d8f3ff;
+  border: none;
 }
 .rectangleDiv17 {
   position: absolute;
@@ -490,6 +494,9 @@
   background-color: var(--color-teal-100);
   width: 132px;
   height: 56px;
+  border: none;
+  font-size: var(--font-size-2xl);
+  font-family: var(--font-montserrat);
 }
 .findTrip {
   position: absolute;
@@ -1558,7 +1565,7 @@
 .golLogo1Icon {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 46px;
   width: 110px;
   height: 62px;
   object-fit: cover;
@@ -1629,16 +1636,16 @@
   position: absolute;
   top: 8px;
   left: 1140px;
-  width: 160px;
+  width: 150px;
   height: 46px;
 }
 .groupNav {
   top: 40px;
-  left: 70px;
-  width: 1300px;
+  left: 25px;
+  width: 1200px;
   height: 62px;
 }
-.header,
+/* .header,
 .header1 {
   position: absolute;
   top: 0;
@@ -1651,7 +1658,7 @@
 }
 .header {
   left: 0;
-}
+} */
 .home {
   position: relative;
   background-color: var(--color-white);
