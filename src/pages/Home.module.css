@@ -1274,7 +1274,7 @@
 .frameDiv23 {
   position: absolute;
   top: 4358px;
-  left: 70px;
+  left: 35px;
   box-shadow: 0 0 24px rgba(0, 0, 0, 0.1);
   gap: var(--gap-0);
   text-align: center;
@@ -1340,7 +1340,7 @@
 .frameDiv56 {
   position: absolute;
   top: 4358px;
-  left: 401px;
+  left: 365px;
   box-shadow: 0 0 24px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
@@ -1424,7 +1424,7 @@
 .frameDiv78 {
   position: absolute;
   top: 5808px;
-  left: 70px;
+  left: 30px;
   box-shadow: 0 0 24px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
@@ -1438,7 +1438,7 @@
 .frameDiv74,
 .frameDiv78 {
   top: 4358px;
-  left: 732px;
+  left: 693px;
 }
 .frameDiv69,
 .frameDiv74,
@@ -1448,7 +1448,7 @@
 .frameDiv74,
 .frameDiv78 {
   top: 4358px;
-  left: 1063px;
+  left: 1020px;
 }
 .frameDiv78 {
   top: 4705px;
@@ -1460,7 +1460,7 @@
   background-color: var(--color-teal-100);
   position: absolute;
   top: calc(50% + 2233.5px);
-  left: 291px;
+  left: 220px;
   border-radius: var(--br-2xl);
   box-sizing: border-box;
   width: 196px;
@@ -1492,7 +1492,7 @@
 }
 .groupDiv44 {
   top: 5629px;
-  left: 316px;
+  left: 240px;
   font-size: var(--font-size-3xl);
   color: var(--color-white);
 }
@@ -1503,7 +1503,7 @@
   background-color: transparent;
   position: absolute;
   top: calc(50% + 2233.5px);
-  left: calc(50% - 209px);
+  left: calc(50% - 225px);
   border-radius: var(--br-2xl);
   box-sizing: border-box;
   width: 197px;
@@ -1512,7 +1512,7 @@
 .groupDiv46 {
   position: absolute;
   top: 5629px;
-  left: 549px;
+  left: 485px;
   width: 121px;
   height: 48px;
   font-size: var(--font-size-3xl);
@@ -1525,7 +1525,7 @@
   background-color: transparent;
   position: absolute;
   top: calc(50% + 2233.5px);
-  left: calc(50% + 12px);
+  left: calc(50% + 6px);
   border-radius: var(--br-2xl);
   box-sizing: border-box;
   width: 197px;
@@ -1534,7 +1534,7 @@
 .groupDiv47 {
   position: absolute;
   top: 5629px;
-  left: 783px;
+  left: 730px;
   width: 96px;
   height: 48px;
   font-size: var(--font-size-3xl);
@@ -1547,7 +1547,7 @@
   background-color: transparent;
   position: absolute;
   top: calc(50% + 2233.5px);
-  left: calc(50% + 233px);
+  left: calc(50% + 237px);
   border-radius: var(--br-2xl);
   box-sizing: border-box;
   width: 196px;
@@ -1556,7 +1556,7 @@
 .groupDiv48 {
   position: absolute;
   top: 5629px;
-  left: 975px;
+  left: 936px;
   width: 152px;
   height: 48px;
   font-size: var(--font-size-3xl);
